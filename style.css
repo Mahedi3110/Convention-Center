@@ -5,3 +5,66 @@
 .book-now {
     width: 15vw;
 }
+
+.carousel-indicators [data-bs-target] {
+    width: 10vw;
+}
+
+.second-part {
+    width: 80vw;
+    height: 31.2vw;
+}
+
+.margin-top {
+    margin-top: 8vw;
+}
+
+.package-card {
+    width: 80vw;
+}
+
+.no-border {
+    border: none;
+}
+
+.text-shdo {
+    text-shadow: 0px 5px 15px black;
+}
+
+.font-style {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hover-item {
+    transition: 0.2s linear;
+    border: none;
+    height: 28vw;
+}
+
+.hover-item:hover {
+    margin-top: -1.5vw;
+    box-shadow: 0px 25px 20px -15px rgba(49, 66, 255, 0.514);
+    background: #3F87F5;
+}
+
+.hover-item:hover .fff-0 {
+    color: white;
+}
+
+.bop {
+    border: none;
+    background: #f2f7ff;
+    color: #3F87F5;
+    width: 15vw;
+    height: 4vw;
+}
+
+.bop:hover {
+    background: rgb(226, 226, 226);
+    color: #3F87F5;
+}
+
+.pic {
+    width: 40vw;
+    height: 25vw;
+}
