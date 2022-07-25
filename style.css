@@ -51,6 +51,10 @@
     color: white;
 }
 
+.hover-item:hover .fff-1 {
+    color: rgb(214, 214, 214);
+}
+
 .bop {
     border: none;
     background: #f2f7ff;
@@ -67,4 +71,17 @@
 .pic {
     width: 40vw;
     height: 25vw;
+}
+
+.a-hvr {
+    color: black;
+}
+
+.a-hvr:hover {
+    color: grey;
+    border-bottom: 2px solid grey;
+}
+
+.fff-1 {
+    color: grey;
 }

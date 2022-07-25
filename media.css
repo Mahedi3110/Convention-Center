@@ -1,0 +1,84 @@
+.container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	width: 90%;
+	margin: 0 auto;
+}
+
+.pic {
+	width: 100%
+}
+
+.container div {
+	width: 19vw;
+	border: 1px solid black;
+	height: 38vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.container div p {
+	font-size: 1.2vw;
+	text-align: justify;
+}
+
+.container div button {
+	width: 70%;
+}
+
+
+/* -------------------------media----------------------- */
+
+
+@media only screen and (max-width: 576px) {
+	.container {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.container div {
+		width: 70vw;
+	}
+}
+
+
+@media only screen and (min-width: 577px),
+and (max-width: 768px) {
+	.container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.container div {
+		width: 38vw;
+	}
+}
+
+
+@media only screen and (min-width: 769px),
+and (max-width: 992px) {
+	.container {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.container div {
+		width: 26vw;
+	}
+}
+
+@media screen and (min-width: 993px),
+and (max-width: 1400px) {
+	.container {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.container div {
+		width: 19vw;
+		border: 1px solid black;
+		height: 38vw;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0 auto;
+	}
+}
